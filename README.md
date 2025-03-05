@@ -33,8 +33,6 @@ Make sure you have the following installed:
 ### **2. Clone the Repository**  
 ```sh
 git clone https://github.com/HChristopherNaoyuki/arraylist-and-split-filter-csharp.git
-```
-```sh
 cd arraylist-and-split-filter-csharp
 ```
 
@@ -52,18 +50,19 @@ cd arraylist-and-split-filter-csharp
 
 ### **Example 1: Matching Word Found**  
 #### **Input:**  
+```
 Enter your question:
-```sh
 how to protect password
 ```
 #### **Output:**  
-
+```
 Match found: password have to be protected
+```
 
 ### **Example 2: All Words Ignored**  
 #### **Input:**  
+```
 Enter your question:
-```sh
 the will about
 ```
 #### **Output:**  
@@ -73,9 +72,8 @@ No matching words found.
 
 ### **Example 3: No Relevant Match**  
 #### **Input:**  
-
+```
 Enter your question:
-```sh
 secure database
 ```
 #### **Output:**  
@@ -85,14 +83,23 @@ No relevant matches found in stored questions.
 
 ### **Example 4: Empty Input**  
 #### **Input:**  
-
+```
 Enter your question:
-```sh
 [Press Enter]
 ```
 #### **Output:**  
 ```
 Error: Input cannot be empty. Please enter a valid question.
+```
+
+---
+
+## **Code Structure**  
+```
+arraylist_and_split_filter_csharp
+│── Program.cs  # Entry point of the application
+│── Filter.cs   # Contains filtering and matching logic
+│── README.md   # Project documentation
 ```
 
 ---
